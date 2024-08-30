@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./image/imag.jpg) ;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+
+.form_hero{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(128, 128, 128, 60%);
+    background: transparent;
+    filter: blur();
+    box-shadow: 0px 0px 15px 12px rgba(0, 0, 0, 0.5);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+}
+
+.form_hero .username-hero{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: transparent;
+    outline: white;
+    color: white;
+}
+.username-hero::placeholder{
+    color: white;
+}
+
+.form_hero .password-hero{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: transparent;
+    outline: white;
+    color: white;
+
+} 
+.password-hero::placeholder{
+    color: white;
+}
+
+.form_hero .nationality-hero{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: transparent;
+    outline: white;
+    color: white;
+}
+.nationality-hero option{
+    color:  grey;
+}
+
+.form_hero .desc-hero{
+    resize: none;
+    width: 400px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    outline: white;
+}
+.desc-hero::placeholder{
+    color: white;
+}
+
+.form_hero .send-hero{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: darkmagenta;
+    font-size: 15px;
+    padding: 5px;
+    transition: .5s;
+}
+
+.form_hero .send-hero:hover{
+    background-color: darkblue;
+}
+.form_hero .send-hero:active{
+    background-color: rgb(181, 181, 215);
+}
+
+
+#cardContainer {
+    display: flex;           
+    gap: 10px;               
+    flex-wrap: wrap;  
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    backdrop-filter:blur(3px) ;
+}
+
+#cardContainer div {
+    border: 1px solid #ccc;   
+    padding: 10px;            
+    width: 200px;            
+    box-shadow: 0px 0px 15px 12px rgba(0, 0, 0, 0.5);    
+    border-radius: 5px;      
+}
+
+
+
